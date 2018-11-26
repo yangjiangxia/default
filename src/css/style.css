@@ -1,0 +1,141 @@
+body {
+    background: #f3f3f4;
+    color: #676a6c;
+    font-size: 12px;
+   /*font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+   font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+   overflow-x: hidden;
+}
+
+.el-menu-vertical-demo {
+    background: transparent;
+    border-right: 1px solid #47484B;
+}
+
+.el-menu-item.is-active {
+    background: #fff;
+
+}
+
+.el-menu-item {
+    color: #fff
+}
+
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.df_jh_dert {
+    min-height: 980px;
+}
+
+.sd_jh_deet {
+
+    margin-top: 20px;
+}
+.sdf_deeett{
+     width: 500px
+}
+.sd_jh_deet .el-input{
+    width: 500px
+}
+
+.dsf_deet {
+    margin-left: 40px;
+}
+
+.sdf_deeett button {
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+/*搜索输入框组件*/
+.seach_assembly .label-style1{
+      width:100px;
+      height: 34px;
+      text-align: right;
+      line-height: 34px;
+      display: inline-block;
+  font-weight: 700;
+}
+
+.seach_assembly .el-input{
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+
+/*默认未开始图片*/
+.default_pic{
+  display: block;
+  margin: 30px auto;
+}
+
+/*表单*/
+.el-dialog__body{
+  font-size: 12px;
+}
+
+.el-input-group__append{
+  cursor: pointer;
+}
+.el-table th{
+  background-color:#f3f3f4 ;
+}
+.table_bg{
+  background-color:#f3f3f4 ;
+}
+
+.mar_l_0 .el-form-item__content{
+  margin-left: 0 !important;
+}
+.el-table tbody .cell{
+  line-height: normal;
+}
+
+/*弹窗没pading值*/
+.el-dialog-p0 .el-dialog__body{
+  padding: 0;
+}
+
+
+/*所有iframe 弹窗去掉padding*/
+#iframes_html{
+  overflow: hidden;
+}
+
+#iframes_html .el-dialog{
+  width: 1500px;
+}
+
+
+#iframes_html .el-dialog__body{
+  padding: 0 !important;
+  padding-top: 20px !important;
+}
+
